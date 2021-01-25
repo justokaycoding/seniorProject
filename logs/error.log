@@ -1,0 +1,178 @@
+2021-01-24 02:20:08 Error: [Cake\Http\Exception\MissingControllerException] Controller class Sdf could not be found. in /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Sdf',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/john/myapp/webroot/index.php:40
+
+Request URL: /sdf
+
+
+2021-01-24 03:43:30 Error: [Error] Class "Router" not found in /Users/john/myapp/config/routes.php on line 54
+Stack Trace:
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:934
+- /Users/john/myapp/config/routes.php:75
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:197
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/john/myapp/webroot/index.php:40
+
+Request URL: /
+
+
+2021-01-24 03:43:30 Error: [Error] Class "Router" not found in /Users/john/myapp/config/routes.php on line 54
+Stack Trace:
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:934
+- /Users/john/myapp/config/routes.php:75
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:197
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/john/myapp/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/e691fe96-9bd5-46dc-9783-04d29d3d8345
+Referer URL: http://localhost:8765/
+
+
+2021-01-24 03:44:23 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/about.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/john/myapp/templates/Pages/about.php`
+- `/Users/john/myapp/vendor/cakephp/cakephp/templates/Pages/about.php`
+ in Pages/about.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pages/about.php',
+  'paths' => 
+  array (
+    0 => '/Users/john/myapp/templates/',
+    1 => '/Users/john/myapp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /Users/john/myapp/vendor/cakephp/cakephp/src/View/View.php:761
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /Users/john/myapp/src/Controller/PagesController.php:65
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:151
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/john/myapp/webroot/index.php:40
+
+Request URL: /about
+
+
+2021-01-24 03:45:25 Error: [Cake\Http\Exception\MissingControllerException] Controller class Aboutsdf could not be found. in /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Aboutsdf',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/john/myapp/webroot/index.php:40
+
+Request URL: /aboutsdf
+
+
+2021-01-24 03:49:03 Error: [ParseError] syntax error, unexpected end of file in /Users/john/myapp/templates/Pages/about.php on line 3
+Stack Trace:
+- /Users/john/myapp/vendor/cakephp/cakephp/src/View/View.php:1134
+- /Users/john/myapp/vendor/cakephp/cakephp/src/View/View.php:764
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /Users/john/myapp/src/Controller/PagesController.php:65
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:151
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/john/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/john/myapp/webroot/index.php:40
+
+Request URL: /about
+
+
